@@ -1,4 +1,82 @@
-    .body{
-        font-family:
-        font-style: normal;
-    }
+@font-face {
+    font-family: 'Yuzu Pop A [M]';
+    src: url(fonts/YuzuPopA_M_Light.eot);
+    src: url(fonts/YuzuPopA_M_Light.eot?#iefix) format('embedded-opentype'),
+        url(fonts/YuzuPopA_M_Light.woff2) format('woff2'),
+        url(fonts/YuzuPopA_M_Light.woff) format('woff'),
+        url(fonts/YuzuPopA_M_Light.ttf) format('truetype'),
+        url(fonts/YuzuPopA_M_Light.svg#YuzuPopA_M_Light) format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yuzu Pop A [M]';
+    src: url(fonts/YuzuPopA_M_Bold.eot);
+    src: url(fonts/YuzuPopA_M_Bold.eot?#iefix) format('embedded-opentype'),
+        url(fonts/YuzuPopA_M_Bold.woff2) format('woff2'),
+        url(fonts/YuzuPopA_M_Bold.woff) format('woff'),
+        url(fonts/YuzuPopA_M_Bold.ttf) format('truetype'),
+        url(fonts/YuzuPopA_M_Bold.svg#YuzuPopA_M_Bold) format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yuzu Pop A [M] Extra';
+    src: url(fonts/YuzuPopA_M_ExtraLight.eot);
+    src: url(fonts/YuzuPopA_M_ExtraLight.eot?#iefix) format('embedded-opentype'),
+        url(fonts/YuzuPopA_M_ExtraLight.woff2) format('woff2'),
+        url(fonts/YuzuPopA_M_ExtraLight.woff) format('woff'),
+        url(fonts/YuzuPopA_M_ExtraLight.ttf) format('truetype'),
+        url(fonts/YuzuPopA_M_ExtraLight.svg#YuzuPopA_M_ExtraLight) format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yuzu Pop A [M]';
+    src: url(fonts/YuzuPopA_M_Regular.eot);
+    src: url(fonts/YuzuPopA_M_Regular.eot?#iefix) format('embedded-opentype'),
+        url(fonts/YuzuPopA_M_Regular.woff2) format('woff2'),
+        url(fonts/YuzuPopA_M_Regular.woff) format('woff'),
+        url(fonts/YuzuPopA_M_Regular.ttf) format('truetype'),
+        url('fonts/YuzuPopA_M_Regular.svg#YuzuPopA_M_Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Yuzu Pop A [M]';
+
+}
+
+#info{
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+    position: absolute; top: 50px;
+    font-size: 8pt;
+    letter-spacing: 0px;
+    border-style: dotted;
+}
+
+.post{
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    font-size: normal;
+    letter-spacing: 0px;
+    position: absolute; left: -100px; top: -20px;
+}
+
+.heading{
+    font-size: 20pt;
+    font-style: bold;
+    margin: 10px;
+    position: absolute; left: 500px; top: 20px;
+}
